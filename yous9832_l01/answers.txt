@@ -1,0 +1,19 @@
+-------------------------------------------------------
+answers.txt
+-------------------------------------------------------
+Author:  Antoine  Youssef
+ID:   169069832
+Email:   yous9832@mylaurier.ca
+Date:    2025-01-13
+-------------------------------------------------------
+Answers for Lab 1
+-------------------------------------------------------
+
+Task 1
+When I replaced 0xe with 14 nothing changed!
+
+Task 2
+Yes it is alright to do. The program compiled successfully 
+
+Task 3
+It didn't work when I added 4 and 5 to registry r4. But it worked when I added r3 

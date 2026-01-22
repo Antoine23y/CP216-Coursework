@@ -1,0 +1,22 @@
+-------------------------------------------------------
+answers.txt
+-------------------------------------------------------
+Author: Antoine Youssef
+ID: 169069832
+Email: yous9832@mylaurier.ca
+Date: 7/2/2025   
+-------------------------------------------------------
+Answers for Lab 3
+-------------------------------------------------------
+
+Task 1
+r3 value when the loop is done: 
+Signed Decimal: 0
+Hexadecimal: 00000000
+
+Task 2
+The address of COUNTER in hexadecimal: 00001020
+
+Task 3
+Altering the LED_BITS memory location would either make the application not run or run like normal
+Altering the DELAY_TIME would make the LED's move faster or slower depending on if you increased or decreased the Delay time

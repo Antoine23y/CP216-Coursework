@@ -1,0 +1,24 @@
+-------------------------------------------------------
+answers.txt
+-------------------------------------------------------
+Author:Antoine Youssef
+ID:169069832
+Email:yous9832@mylaurier.ca
+Date:2025/01/31
+-------------------------------------------------------
+Answers for Lab 2
+-------------------------------------------------------
+
+Task 1
+Removed semicolon after label A and colon after label B as its improper syntax
+Removed the Brackets on [R0] so that is pointed to the contents of R0 and not the address of the contents of R0 in this case pointing back to the label A and B
+
+Task 2
+Added brackets to R3 to point to the address stored inside R3 which is the label Total, Removed the additional f to the label Difff so that it matches with the label in the .bss section
+Added brackets to another R3 so it point to the label Diff
+
+Task 3
+Changed the value of the byte size from 2 to 4 because 4 is the size of a byte
+Changed R1 to R1 in ADD R1, R1, #4 as its repeated in next line and need to copy contents of both registers not just R1 twice
+Changed address from R2 to R1 as R1 is a copied value but R2 is not
+Changed .word to .space to allocate 12 bytes of memory 3 items of 4 bytes each as .word cant be used outside of .data section or inside .bss section
